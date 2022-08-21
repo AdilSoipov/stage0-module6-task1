@@ -8,6 +8,10 @@ class Dog extends Animal {
    void getDescription(){
         System.out.println("This animal is mostly " + color + ". It has " + numberOfPaws + " " + stringNumberOfPaws(numberOfPaws) + " and " + booleanHasFur(hasFur) + "fur.");
     }
+  public static void main(String[] args){
+   Dog myDog = new Dog("brown", 4. false);
+   myDog.getDescription(); 
+  }
     
   
 
