@@ -6,7 +6,7 @@ class Dog extends Animal {
     
   }
    void getDescription(){
-        System.out.println("This animal is mostly " + super.color + ". It has " + super.numberOfPaws + " " + super.stringNumberOfPaws(super.numberOfPaws) + " and " + super.booleanHasFur(super.hasFur) + "fur.");
+     super.getDescription();
     }
  
   
